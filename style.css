@@ -52,5 +52,10 @@ button {
 .imgContainer {
   height: 200px;
   width: 200px;
-  background-color: green;
+  visibility: hidden;
+}
+.showImage {
+  visibility: visible;
+  background-size: cover;
+  object-fit: cover;
 }
